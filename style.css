@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.img{
+    width:50%;
+}
+/* Intro Section */
+.intro {
+    text-align: center;
+    padding: 2rem;
+    background-color: white;
+    margin-bottom: 2rem;
+}
+
+.intro img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Blog Posts */
+.posts {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.posts article {
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+    width: 45%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.posts article img {
+    max-width: 100%;
+    height: auto;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #333;
+    color: white;
+}
+
+footer .social a {
+    margin-right: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+footer .social a:hover {
+    text-decoration: underline;
+}
