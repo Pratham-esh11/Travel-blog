@@ -41,7 +41,7 @@ nav ul li a:hover {
 .img{
     width:50%;
 }
-/* Intro Section */
+
 .intro {
     text-align: center;
     padding: 2rem;
@@ -54,7 +54,7 @@ nav ul li a:hover {
     height: auto;
 }
 
-/* Blog Posts */
+
 .posts {
     display: flex;
     justify-content: space-around;
@@ -86,7 +86,7 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     padding: 2rem;
